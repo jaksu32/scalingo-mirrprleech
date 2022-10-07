@@ -1,6 +1,7 @@
 from signal import signal, SIGINT
 from os import path as ospath, remove as osremove, execl as osexecl
 from subprocess import run as srun, check_output
+from aria2p import API as ariaAPI, Client as ariaClient
 from psutil import (
     disk_usage,
     cpu_percent,
