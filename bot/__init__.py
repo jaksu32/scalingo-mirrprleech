@@ -18,6 +18,7 @@ from json import loads as jsnloads
 from subprocess import Popen, run as srun, check_output
 from time import sleep, time
 from threading import Thread, Lock
+from aria2p import API as ariaAPI, Client as ariaClient
 from pyrogram import Client, enums
 from dotenv import load_dotenv
 
